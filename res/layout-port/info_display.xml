@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+   <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical"
+         >
+
+        <LinearLayout
+            android:id="@+id/loInfoImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cevre_temizlik" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loInfoTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="347dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:text="dkjslakjdkljsakldjlas
+                djsa
+                jdkşsajşdkjs
+                aşkjd
+                sja
+                djasş
+                jkd
+                jksa
+                jkd
+                skaj
+                kdjsakjdkşjsak
+                şkjd
+                saj
+                djsaş
+                jd
+                şjasş
+                dj
+                sşajd
+                jsaş
+                djşsaj
+                djas
+                jd
+                asjk
+                dj
+                askjdsa
+                fds
+                
+                fds
+                
+                fds
+                
+                fd
+                s
+                fd
+                s
+                f
+                ds
+                f
+                ds
+                f
+                sd
+                " />
+
+        </LinearLayout>
+        
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

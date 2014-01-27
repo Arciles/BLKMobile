@@ -128,28 +128,35 @@ public final class R {
         public static final int ImageButton08=0x7f080018;
         public static final int ImageButton09=0x7f080019;
         public static final int ImageButton10=0x7f08000a;
-        public static final int ImageButton11=0x7f08000c;
-        public static final int ImageButton12=0x7f08000b;
         public static final int SCROLLER_ID=0x7f080000;
-        public static final int action_settings=0x7f08001a;
+        public static final int action_settings=0x7f08001d;
         public static final int imageButton1=0x7f080008;
-        public static final int imageView1=0x7f080006;
-        public static final int ivInfoImage=0x7f080002;
+        public static final int imageButton2=0x7f08001b;
+        public static final int imageView1=0x7f080003;
+        public static final int imageView2=0x7f08000b;
+        public static final int imageView3=0x7f08000c;
+        public static final int listView1=0x7f080006;
         public static final int llFirstRow=0x7f08000e;
         public static final int llSecondRow=0x7f080012;
         public static final int llThirdRow=0x7f080016;
-        public static final int loHeader=0x7f080005;
+        public static final int loButtons=0x7f08001c;
+        public static final int loHeader=0x7f080007;
+        public static final int loInfoImageLayout=0x7f080002;
+        public static final int loInfoTextLayout=0x7f080004;
+        public static final int loNewsAndMayor=0x7f08001a;
         public static final int loSecond=0x7f080009;
         public static final int loThird=0x7f08000d;
-        public static final int textAreaScroller=0x7f080003;
-        public static final int textView1=0x7f080007;
-        public static final int tvInfoText=0x7f080004;
+        public static final int textView1=0x7f080005;
         public static final int tvView=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main_menu=0x7f030000;
-        public static final int info_diplayer=0x7f030001;
-        public static final int main_menu=0x7f030002;
+        public static final int info_display=0x7f030001;
+        public static final int info_display_tablet=0x7f030002;
+        public static final int kurumsal_menu=0x7f030003;
+        public static final int main_menu=0x7f030004;
+        public static final int main_menu_tablet=0x7f030005;
+        public static final int splash_screen=0x7f030006;
     }
     public static final class menu {
         public static final int main_menu=0x7f070000;

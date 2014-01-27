@@ -15,7 +15,7 @@
             android:id="@+id/imageView1"
             android:layout_width="47dp"
             android:layout_height="49dp"
-            android:background="@drawable/back_320_480" />
+            android:background="@drawable/bel_amblem" />
 
         <TextView
             android:id="@+id/textView1"
@@ -41,45 +41,58 @@
         android:id="@+id/loSecond"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2.98"
+        android:layout_weight="2.93"
         android:orientation="horizontal"
         android:paddingBottom="5dp"
         android:paddingLeft="2dp"
         android:paddingTop="5dp" >
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:paddingLeft="5dp" >
 
             <ImageButton
                 android:id="@+id/ImageButton10"
-                android:layout_width="116dp"
-                android:layout_height="102dp"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
                 android:background="@drawable/btn10"
                 android:paddingLeft="0dp" />
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="2" >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent" 
+                android:layout_weight="2">
 
-            <ImageButton
-                android:id="@+id/ImageButton12"
-                android:layout_width="116dp"
-                android:layout_height="102dp"
-                android:background="#FFF"
-                android:paddingLeft="0dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
 
-            <ImageButton
-                android:id="@+id/ImageButton11"
-                android:layout_width="116dp"
-                android:layout_height="102dp"
-                android:background="#FFF"
-                android:padding="5dp"
-                android:paddingLeft="0dp" />
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="#FFFFFF" />
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="#FFFFFF" />
+                    
+                </LinearLayout>
+                
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 
@@ -109,11 +122,16 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton01"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn1"
-                    android:paddingLeft="0dp" />
+                   android:padding="2dp" />
             </LinearLayout>
+<LinearLayout
+    android:layout_width="5dp" 
+    android:layout_height="match_parent"
+    />
+    
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -122,12 +140,16 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton02"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn2"
-                    android:paddingLeft="0dp" />
-            </LinearLayout>
+                    android:padding="2dp" />
 
+            </LinearLayout>
+<LinearLayout 
+    android:layout_width="5dp"
+    android:layout_height="match_parent"
+    />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -135,10 +157,10 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton03"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn3"
-                    android:paddingLeft="0dp" />
+                    android:padding="2dp"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -157,12 +179,15 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton04"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn4"
                     android:paddingLeft="0dp" />
             </LinearLayout>
-
+<LinearLayout 
+    android:layout_width="5dp"
+    android:layout_height="match_parent"
+    />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -170,12 +195,15 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton05"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn5"
                     android:paddingLeft="0dp" />
             </LinearLayout>
-
+<LinearLayout 
+    android:layout_width="5dp"
+    android:layout_height="match_parent"
+    />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -183,8 +211,8 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton06"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn6"
                     android:paddingLeft="0dp" />
             </LinearLayout>
@@ -205,25 +233,31 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton07"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn7"
                     android:paddingLeft="0dp" />
             </LinearLayout>
-
+<LinearLayout 
+    android:layout_width="5dp"
+    android:layout_height="match_parent"
+    />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1" >
+                android:layout_weight="1"
+                android:padding="0dp" >
 
                 <ImageButton
                     android:id="@+id/ImageButton08"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
-                    android:background="@drawable/btn8"
-                    android:paddingLeft="0dp" />
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn8" />
             </LinearLayout>
-
+<LinearLayout 
+    android:layout_width="5dp"
+    android:layout_height="match_parent"
+    />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -231,8 +265,8 @@
 
                 <ImageButton
                     android:id="@+id/ImageButton09"
-                    android:layout_width="116dp"
-                    android:layout_height="102dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:background="@drawable/btn9"
                     android:paddingLeft="0dp" />
             </LinearLayout>
