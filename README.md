@@ -1,4 +1,4 @@
 BLKMobile
 =========
 
-mobile servises of an local major
+mobile servises of an local mayor.
