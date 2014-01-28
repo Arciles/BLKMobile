@@ -37,6 +37,7 @@
             android:scaleType="fitCenter" />
     </LinearLayout>
 
+
     <LinearLayout
         android:id="@+id/loSecond"
         android:layout_width="match_parent"
@@ -272,5 +273,6 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
 
 </LinearLayout>

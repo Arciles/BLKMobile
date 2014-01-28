@@ -4,5 +4,32 @@
     <string name="app_name">BalikesirBelediye</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string-array name="balikesir_menu">
+        <item >Balıkesir Tarihi</item>
+        <item >Muhtarlık</item>
+        <item >Sağlık Kuruluşları</item>
+        <item >Eczaneler</item>
+        <item >Kütüphaneler</item>
+        <item >Önemli Telefonlar</item>
+        <item >Bankalar</item>
+        <item >Balıkesir Üniversitesi</item>
+        <item >Balıkesir Havaalanı</item>
+    </string-array>
+    
+	<string-array name ="e_belediye">
+	    <item>Borç Sorgulama ve Ödeme</item>
+	    <item >İstek - Şikayet</item>
+	    <item >Hesap Numaraları / Vergi Dönemleri</item>
+	    <item >Nöbetçi Eczaneler</item>
+	</string-array>
+	
+	<string-array name = "e_Rehber">
+	    <item >Çevre Temizlik İşlemleri</item>
+	    <item >İnşaat Ruhsatı İşlemleri</item>
+	    <item >Evlendirme İşlemleri</item>
+	    <item >Su ve Kanalizasyon İşlemleri</item>
+	    <item >İşyeri Açma ve Çalıştırma Ruhsat İşlemleri</item>
+	    <item>İskan Raporu İşlemleri</item>
+	    <item>Emlak Vergisi İşelmeri</item>
+	</string-array>
 </resources>
