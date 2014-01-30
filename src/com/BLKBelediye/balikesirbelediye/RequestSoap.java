@@ -21,7 +21,7 @@ import android.util.Xml;
 public  class RequestSoap {
 	
     private static final String USERNAME = "bldwebserviskullanici";
-	private static final String PASSWORD = "b*mns0kn*?d_hmd56dUs_d";
+	private static final String PASSWORD = "**********************";
 	private static final String TAG = "PropertyCountTag";
 	private static String METHOD_NAME ;
     private static String SOAP_ACTION ;
