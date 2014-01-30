@@ -21,7 +21,7 @@ import android.util.Xml;
 public  class RequestSoap {
 	
     private static final String USERNAME = "bldwebserviskullanici";
-	private static final String PASSWORD = "b*mns0kn*?d_hmd56dUs_d";
+	private static final String PASSWORD = "**********************";
 	private static final String TAG = "PropertyCountTag";
 	private static String METHOD_NAME ;
     private static String SOAP_ACTION ;
@@ -44,7 +44,7 @@ public  class RequestSoap {
     	METHOD_NAME = _METHOD_NAME ;
     	SOAP_ACTION = "http://tempuri.org/" + METHOD_NAME;
     	NAMESPACE = "http://tempuri.org/";
-    	URL = "http://servis.balikesir.bel.tr/MobilService.asmx";;
+    	URL = "http://servis.balikesir.bel.tr/MobilService.asmx";
     	PARAM_NAME = _PARAM_NAME ;
     	PARAM_VALUE = _PARAM_VALUE ;
     	

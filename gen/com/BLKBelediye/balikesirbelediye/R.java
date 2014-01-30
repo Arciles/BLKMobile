@@ -9,6 +9,8 @@ package com.BLKBelediye.balikesirbelediye;
 
 public final class R {
     public static final class array {
+        public static final int Kurumsal=0x7f060003;
+        public static final int Proje_ve_hizmetler=0x7f060004;
         public static final int balikesir_menu=0x7f060000;
         public static final int e_Rehber=0x7f060002;
         public static final int e_belediye=0x7f060001;
@@ -135,13 +137,14 @@ public final class R {
         public static final int ImageButton09=0x7f090019;
         public static final int ImageButton10=0x7f09000a;
         public static final int SCROLLER_ID=0x7f090000;
-        public static final int action_settings=0x7f09001e;
+        public static final int action_settings=0x7f090020;
         public static final int imageButton1=0x7f090008;
         public static final int imageButton2=0x7f09001b;
         public static final int imageView1=0x7f090003;
         public static final int imageView2=0x7f09000b;
         public static final int imageView3=0x7f09000c;
-        public static final int ivSingleTablet=0x7f09001d;
+        public static final int ivMultiple=0x7f09001d;
+        public static final int ivSingleTablet=0x7f09001f;
         public static final int listView1=0x7f090006;
         public static final int llFirstRow=0x7f09000e;
         public static final int llSecondRow=0x7f090012;
@@ -154,6 +157,7 @@ public final class R {
         public static final int loSecond=0x7f090009;
         public static final int loThird=0x7f09000d;
         public static final int textView1=0x7f090005;
+        public static final int tvMultiole=0x7f09001e;
         public static final int tvView=0x7f090001;
     }
     public static final class layout {
