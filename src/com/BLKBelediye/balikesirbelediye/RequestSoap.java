@@ -44,7 +44,7 @@ public  class RequestSoap {
     	METHOD_NAME = _METHOD_NAME ;
     	SOAP_ACTION = "http://tempuri.org/" + METHOD_NAME;
     	NAMESPACE = "http://tempuri.org/";
-    	URL = "http://servis.balikesir.bel.tr/MobilService.asmx";;
+    	URL = "http://servis.balikesir.bel.tr/MobilService.asmx";
     	PARAM_NAME = _PARAM_NAME ;
     	PARAM_VALUE = _PARAM_VALUE ;
     	

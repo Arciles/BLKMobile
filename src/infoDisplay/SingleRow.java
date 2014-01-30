@@ -7,4 +7,9 @@ class SingleRow
 {
     String title;
     int image;
+    SingleRow(String title ,int image)
+    {
+        this.title = title;
+        this.image = image;
+    }
 }

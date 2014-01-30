@@ -15,7 +15,7 @@
         <item >Balıkesir Üniversitesi</item>
         <item >Balıkesir Havaalanı</item>
     </string-array>
-    
+
 	<string-array name ="e_belediye">
 	    <item>Borç Sorgulama ve Ödeme</item>
 	    <item >İstek - Şikayet</item>
@@ -32,4 +32,28 @@
 	    <item>İskan Raporu İşlemleri</item>
 	    <item>Emlak Vergisi İşelmeri</item>
 	</string-array>
+
+    <string-array name="Kurumsal">
+        <item>Belediye Tarihi</item>
+        <item>Başkanlarımız</item>
+        <item>Başkan Yardımcıları</item>
+        <item>Belediye Meclisi</item>
+        <item>Belediye Encümeni</item>
+        <item>Belediye Müdürleri</item>
+        <item>Meclis Karar Özetleri</item>
+    </string-array>
+
+    <string-array name="Proje_ve_hizmetler">
+        <item>Kültür ve Sanat Projeleri</item>
+        <item>Sağlık Projeleri</item>
+        <item>Eğitim ve Teknoloji Projeleri</item>
+        <item>Park ve Çevre Projeleri</item>
+        <item>Yol ve Cadde Projeleri</item>
+        <item>Sosyal Yardım Projeleri</item>
+        <item>Halkla İlişkiler Projeleri</item>
+        <item>Spor Projeleri</item>
+        <item>Ulaşım Projeleri</item>
+        <item>Diğer Projeler</item>
+    </string-array>
+
 </resources>
