@@ -74,13 +74,14 @@ public  class ListAdapter extends BaseAdapter {
             }
 
         }
-        else if(choice.equals("Proje_ve_hizmetler"))
+        else if(choice.equals("Proje"))
         {
             Resources res = c.getResources();
-            titles = res.getStringArray(R.array.Proje_ve_hizmetler);
+            titles = res.getStringArray(R.array.Hizmetler);
             images = new int[]{R.drawable.proje1,R.drawable.proje2,R.drawable.proje3,
                     R.drawable.proje4,R.drawable.proje5,R.drawable.proje6,R.drawable.proje7,
                     R.drawable.proje8,R.drawable.proje9,R.drawable.proje10};
+
             for(int i = 0 ; i < titles.length ; i++)
             {
                listMembers.add(new SingleRow(titles[i] ,images[i]));
@@ -124,6 +125,8 @@ public  class ListAdapter extends BaseAdapter {
         holder.text.setText(listMembers.get(position).title); //gelen position a gore resim ve text leri set ettik
         holder.image.setImageResource(listMembers.get(position).image);
 
+        titles=null;//Listlerin icini bosalttık sonraki kullanım icin hazır hale getirdik
+        images=null;
         return row; // single row u return ettik
     }
 

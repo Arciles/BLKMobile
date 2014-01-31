@@ -1,30 +1,51 @@
 package infoDisplay;
 
-import com.BLKBelediye.balikesirbelediye.R;
-
 import android.app.Activity;
-import android.content.res.Resources;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import com.BLKBelediye.balikesirbelediye.*;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class BalikesirMenu extends Activity {
 
-	String[] titles;
-	int[] images = {R.drawable.balikesir1,R.drawable.balikesir2 ,R.drawable.balikesir3 ,
-				R.drawable.balikesir4 ,R.drawable.balikesir5,
-				R.drawable.balikesir6 ,R.drawable.balikesir7 ,
-				R.drawable.balikesir8 ,R.drawable.balikesir9};
 	ListView list;
-	
+    String icerik;
+    private static ArrayList<ArrayList> result = new ArrayList<ArrayList>();
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		
-		Resources res = getResources();
-		titles = res.getStringArray(R.array.balikesir_menu);
-		list = (ListView)findViewById(R.id.listView1);
-		
-	}
+		setContentView(R.layout.kurumsal_menu);
+
+        list = (ListView) findViewById(R.id.listView1);
+        list.setAdapter(new ListAdapter(this , "Belikesir"));
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                switch (position)
+                {
+                    case 0 /*Balikesir tarihi getir*/:
+                        break;
+
+                }
+            }
+         }
+        );
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }
 }
 

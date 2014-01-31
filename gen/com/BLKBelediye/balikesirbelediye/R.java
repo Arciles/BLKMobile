@@ -9,8 +9,8 @@ package com.BLKBelediye.balikesirbelediye;
 
 public final class R {
     public static final class array {
+        public static final int Hizmetler=0x7f060004;
         public static final int Kurumsal=0x7f060003;
-        public static final int Proje_ve_hizmetler=0x7f060004;
         public static final int balikesir_menu=0x7f060000;
         public static final int e_Rehber=0x7f060002;
         public static final int e_belediye=0x7f060001;
@@ -126,52 +126,52 @@ public final class R {
         public static final int visamaster=0x7f02005f;
     }
     public static final class id {
-        public static final int ImageButton01=0x7f09000f;
-        public static final int ImageButton02=0x7f090010;
-        public static final int ImageButton03=0x7f090011;
-        public static final int ImageButton04=0x7f090013;
-        public static final int ImageButton05=0x7f090014;
-        public static final int ImageButton06=0x7f090015;
-        public static final int ImageButton07=0x7f090017;
-        public static final int ImageButton08=0x7f090018;
-        public static final int ImageButton09=0x7f090019;
-        public static final int ImageButton10=0x7f09000a;
         public static final int SCROLLER_ID=0x7f090000;
-        public static final int action_settings=0x7f090020;
-        public static final int imageButton1=0x7f090008;
-        public static final int imageButton2=0x7f09001b;
-        public static final int imageView1=0x7f090003;
-        public static final int imageView2=0x7f09000b;
-        public static final int imageView3=0x7f09000c;
-        public static final int ivMultiple=0x7f09001d;
-        public static final int ivSingleTablet=0x7f09001f;
-        public static final int listView1=0x7f090006;
-        public static final int llFirstRow=0x7f09000e;
-        public static final int llSecondRow=0x7f090012;
-        public static final int llThirdRow=0x7f090016;
-        public static final int loButtons=0x7f09001c;
-        public static final int loHeader=0x7f090007;
-        public static final int loInfoImageLayout=0x7f090002;
-        public static final int loInfoTextLayout=0x7f090004;
-        public static final int loNewsAndMayor=0x7f09001a;
-        public static final int loSecond=0x7f090009;
-        public static final int loThird=0x7f09000d;
-        public static final int textView1=0x7f090005;
-        public static final int tvMultiole=0x7f09001e;
+        public static final int action_settings=0x7f09001f;
+        public static final int ibBalikesir=0x7f090012;
+        public static final int ibBaskan=0x7f09000b;
+        public static final int ibDuyurular=0x7f090010;
+        public static final int ibEBelediye=0x7f090013;
+        public static final int ibERehber=0x7f090016;
+        public static final int ibEtkinlikler=0x7f090014;
+        public static final int ibFotoğraflar=0x7f090018;
+        public static final int ibHaberler=0x7f09000f;
+        public static final int ibHizmetler=0x7f090017;
+        public static final int ibKurumsal=0x7f09000e;
+        public static final int imageButton1=0x7f09000a;
+        public static final int imageButton2=0x7f09001a;
+        public static final int imageView1=0x7f090005;
+        public static final int ivMultiple=0x7f09001c;
+        public static final int ivSingleTablet=0x7f09001e;
+        public static final int listView1=0x7f090008;
+        public static final int llFirstRow=0x7f09000d;
+        public static final int llSecondRow=0x7f090011;
+        public static final int llThirdRow=0x7f090015;
+        public static final int loButtons=0x7f09001b;
+        public static final int loHeader=0x7f090009;
+        public static final int loInfoImageLayout=0x7f090004;
+        public static final int loInfoTextLayout=0x7f090006;
+        public static final int loNewsAndMayor=0x7f090019;
+        public static final int loThird=0x7f09000c;
+        public static final int scrollView=0x7f090002;
+        public static final int textView1=0x7f090007;
+        public static final int tvDeneme=0x7f090003;
+        public static final int tvMultiole=0x7f09001d;
         public static final int tvView=0x7f090001;
     }
     public static final class layout {
         public static final int activity_main_menu=0x7f030000;
-        public static final int info_display=0x7f030001;
-        public static final int info_display_tablet=0x7f030002;
-        public static final int kurumsal_menu=0x7f030003;
-        public static final int main_menu=0x7f030004;
-        public static final int main_menu_tablet=0x7f030005;
-        public static final int multible_image_row=0x7f030006;
-        public static final int multible_image_row_tablet=0x7f030007;
-        public static final int single_image_row=0x7f030008;
-        public static final int single_image_row_tablet=0x7f030009;
-        public static final int splash_screen=0x7f03000a;
+        public static final int deneme=0x7f030001;
+        public static final int info_display=0x7f030002;
+        public static final int info_display_tablet=0x7f030003;
+        public static final int kurumsal_menu=0x7f030004;
+        public static final int main_menu=0x7f030005;
+        public static final int main_menu_tablet=0x7f030006;
+        public static final int multible_image_row=0x7f030007;
+        public static final int multible_image_row_tablet=0x7f030008;
+        public static final int single_image_row=0x7f030009;
+        public static final int single_image_row_tablet=0x7f03000a;
+        public static final int splash_screen=0x7f03000b;
     }
     public static final class menu {
         public static final int main_menu=0x7f080000;

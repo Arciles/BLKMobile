@@ -13,15 +13,80 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >"
+
+        <activity android:name="com.BLKBelediye.balikesirbelediye.Splash"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.SPLASH" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
         <activity
             android:name="com.BLKBelediye.balikesirbelediye.MainMenu"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAINMENU" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name="infoDisplay.Kurumsal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.KURUMSAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.BalikesirMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BALIKESIRMENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.EBelediye"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EBELEDIYE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.ERehber"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EREHBER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.ProjeVeHizmetler"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HIZMETLER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.BLKBelediye.balikesirbelediye.deneme"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DENEME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

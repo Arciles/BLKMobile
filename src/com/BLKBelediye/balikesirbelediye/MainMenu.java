@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import org.xmlpull.v1.XmlPullParserException;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
@@ -39,11 +40,16 @@ public class MainMenu extends Activity implements View.OnClickListener{
 
         initialize();//ImageButton lari bu method icinde initialize ettim
 
+        baskan.setOnClickListener(this);
         kurumsal.setOnClickListener(this);
-
-
-
-
+        haberler.setOnClickListener(this);
+        duyurular.setOnClickListener(this);
+        balikesir.setOnClickListener(this);
+        e_belediye.setOnClickListener(this);
+        etkinlikler.setOnClickListener(this);
+        e_rehber.setOnClickListener(this);
+        hizmetler.setOnClickListener(this);
+        fotograflar.setOnClickListener(this);
 
 
 
@@ -76,7 +82,6 @@ public class MainMenu extends Activity implements View.OnClickListener{
 					}
 				}
 				tx.setText(temp);*/
-				
 	}
 
 	@Override
@@ -110,26 +115,50 @@ public class MainMenu extends Activity implements View.OnClickListener{
         {
             case R.id.ibKurumsal :
 
-
-
+                Intent kurumIntent = new Intent("android.intent.action.KURUMSAL");
+                startActivity(kurumIntent);
                 break;
             case R.id.ibBalikesir :
+
+                Intent balikesirIntent = new Intent("android.intent.action.BALIKESIRMENU");
+                startActivity(balikesirIntent);
+
                 break;
             case R.id.ibBaskan :
+
+                Intent baskan = new Intent("android.intent.action.DENEME");
+                startActivity(baskan);
+
                 break;
             case R.id.ibDuyurular :
+
                 break;
             case R.id.ibEBelediye :
+
+                Intent eBelediyeIntent = new Intent("android.intent.action.EBELEDIYE");
+                startActivity(eBelediyeIntent);
+
                 break;
             case R.id.ibERehber :
+
+                Intent eRehber = new Intent("android.intent.action.EREHBER");
+                startActivity(eRehber);
+
                 break;
             case R.id.ibEtkinlikler :
+
                 break;
             case R.id.ibHaberler :
+
                 break;
             case R.id.ibHizmetler :
+
+                Intent proje = new Intent("android.intent.action.HIZMETLER");
+                startActivity(proje);
+
                 break;
             case R.id.ibFotoğraflar :
+
                 break;
         }
     }

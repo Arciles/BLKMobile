@@ -43,7 +43,7 @@
         <item>Meclis Karar Özetleri</item>
     </string-array>
 
-    <string-array name="Proje_ve_hizmetler">
+    <string-array name="Hizmetler">
         <item>Kültür ve Sanat Projeleri</item>
         <item>Sağlık Projeleri</item>
         <item>Eğitim ve Teknoloji Projeleri</item>
