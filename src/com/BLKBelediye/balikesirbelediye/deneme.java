@@ -26,7 +26,7 @@ public class deneme extends Activity {
 
         temp = "";
         try {
-            result = MethodInfoGetter.methodRequest("BelediyeMeclisiGetir", "", "");
+            result = MethodInfoGetter.methodRequest("BaskanYardimcilariGetir", "", "");
             Log.i("MainMenu", "Result gelis vakti");
         } catch (IOException e) {
             // TODO Auto-generated catch block
@@ -43,10 +43,11 @@ public class deneme extends Activity {
         {
             for(int i = 0 ; i < result.size() ; i++)
             {
+                temp += "\n Burasi iki element arasi \n";
+                Log.i("Deneme icindeki result sayisi",String.valueOf(result.get(i).size()));
                 for(int j = 0 ; j < result.get(i).size() ; j++ )
                 {
-                    temp += result.get(i).get(j) + " \n";
-
+                    temp += result.get(i).get(j) + "\n burasi iki tag arasi \n";
                 }
             }
         }

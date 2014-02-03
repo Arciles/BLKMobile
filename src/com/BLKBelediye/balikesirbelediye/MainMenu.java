@@ -3,18 +3,18 @@ package com.BLKBelediye.balikesirbelediye;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import org.xmlpull.v1.XmlPullParserException;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-import android.view.Window;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
 public class MainMenu extends Activity implements View.OnClickListener{
 
@@ -39,6 +39,9 @@ public class MainMenu extends Activity implements View.OnClickListener{
 		setContentView(R.layout.main_menu);
 
         initialize();//ImageButton lari bu method icinde initialize ettim
+
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext()).build();
+        ImageLoader.getInstance().init(config);
 
         baskan.setOnClickListener(this);
         kurumsal.setOnClickListener(this);
@@ -149,6 +152,9 @@ public class MainMenu extends Activity implements View.OnClickListener{
 
                 break;
             case R.id.ibHaberler :
+
+                Intent haberler = new Intent("android.intent.action.DYNAMIC");
+                startActivity(haberler);
 
                 break;
             case R.id.ibHizmetler :

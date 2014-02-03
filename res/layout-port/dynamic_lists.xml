@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivDynamic"
+        android:background="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:text="Baslik bla bla"
+        android:id="@+id/tvDynamic1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivDynamic"
+        android:paddingLeft="10dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:text="Icerik bla bla bla"
+        android:id="@+id/tvDynamic2"
+        android:layout_toRightOf="@+id/ivDynamic"
+        android:layout_below="@+id/tvDynamic1"
+        android:paddingLeft="7dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/ivDynamic" />
+</RelativeLayout>
