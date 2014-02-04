@@ -25,7 +25,13 @@ public class Splash extends Activity
                 Intent intent = new Intent(Splash.this, MainMenu.class);
                 startActivity(intent);
             }
-        }, 2000);
+        }, 800);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
     }
 
 }

@@ -104,11 +104,11 @@ public class MainMenu extends Activity implements View.OnClickListener{
         haberler = (ImageButton) findViewById(R.id.ibHaberler);
         duyurular = (ImageButton) findViewById(R.id.ibDuyurular);
         balikesir = (ImageButton) findViewById(R.id.ibBalikesir);
-        e_belediye = (ImageButton) findViewById(R.id.ibEBelediye);
+        e_belediye = (ImageButton) findViewById(R.id.ibBelediye);
         etkinlikler = (ImageButton) findViewById(R.id.ibEtkinlikler);
-        e_rehber = (ImageButton) findViewById(R.id.ibERehber);
+        e_rehber = (ImageButton) findViewById(R.id.ibRehber);
         hizmetler = (ImageButton) findViewById(R.id.ibHizmetler);
-        fotograflar = (ImageButton) findViewById(R.id.ibFotoğraflar);
+        fotograflar = (ImageButton) findViewById(R.id.ibFotograflar);
     }
 
 
@@ -116,7 +116,7 @@ public class MainMenu extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId())
         {
-            case R.id.ibKurumsal :
+            case R.id.ibKurumsal:
 
                 Intent kurumIntent = new Intent("android.intent.action.KURUMSAL");
                 startActivity(kurumIntent);
@@ -136,19 +136,19 @@ public class MainMenu extends Activity implements View.OnClickListener{
             case R.id.ibDuyurular :
 
                 break;
-            case R.id.ibEBelediye :
+            case R.id.ibBelediye:
 
                 Intent eBelediyeIntent = new Intent("android.intent.action.EBELEDIYE");
                 startActivity(eBelediyeIntent);
 
                 break;
-            case R.id.ibERehber :
+            case R.id.ibRehber :
 
                 Intent eRehber = new Intent("android.intent.action.EREHBER");
                 startActivity(eRehber);
 
                 break;
-            case R.id.ibEtkinlikler :
+            case R.id.ibEtkinlikler:
 
                 break;
             case R.id.ibHaberler :
@@ -157,13 +157,13 @@ public class MainMenu extends Activity implements View.OnClickListener{
                 startActivity(haberler);
 
                 break;
-            case R.id.ibHizmetler :
+            case R.id.ibHizmetler:
 
                 Intent proje = new Intent("android.intent.action.HIZMETLER");
                 startActivity(proje);
 
                 break;
-            case R.id.ibFotoğraflar :
+            case R.id.ibFotograflar:
 
                 break;
         }

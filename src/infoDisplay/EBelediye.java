@@ -16,7 +16,7 @@ public class EBelediye extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kurumsal_menu);
-        list = (ListView) findViewById(R.id.listView1);
+        list = (ListView) findViewById(R.id.list);
         list.setAdapter(new ListAdapter(this , "E_belediye"));
 
     }

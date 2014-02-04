@@ -70,7 +70,7 @@
             android:layout_height="wrap_content" >
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibBaskanTablet"
                 android:layout_width="251dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn10" />
@@ -82,12 +82,12 @@
             android:layout_height="wrap_content" >
             
    <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibHaberlerTablet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF" />
       <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibHaberlerTablet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF" />
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" >
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibKurumsalTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn1" />
@@ -134,7 +134,7 @@
                 android:layout_weight="1">
 			
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibHaberlerTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn2" />
@@ -151,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" >
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibDuyurularTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn3" />
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content" 
                 android:layout_weight="1">
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibBalikesirTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn4" />
@@ -189,7 +189,7 @@
                 android:layout_height="wrap_content" 
                 android:layout_weight="1">
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibBelediyeTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn5" />
@@ -206,7 +206,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" >
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibEtkinliklerTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn6" />
@@ -225,7 +225,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1" >
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibRehberTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn7" />
@@ -242,7 +242,7 @@
                 android:layout_height="wrap_content" 
                 android:layout_weight="1">
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibHizmetlerTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn8" />
@@ -259,7 +259,7 @@
                 android:layout_height="wrap_content" 
                 android:layout_weight="1">
 			<ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/ibFotograflarTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn9" />

@@ -2,12 +2,12 @@ package infoDisplay;
 
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.BLKBelediye.balikesirbelediye.R;
@@ -24,21 +24,45 @@ public class DynamicListView extends BaseAdapter {
 
     ImageLoader imageLoader;
     Context c;
-    String[] images= {"http://3.bp.blogspot.com/-Gsj-34Iyiio/ULEiyinE28I/AAAAAAAADPg/ISUQwGzSBMs/s1600/twitter.png",
-            "http://a1.mzstatic.com/us/r30/Purple6/v4/99/ee/8e/99ee8e01-f089-d549-f571-1a3797ec660d/icon_256.png" ,
-    "http://www.wallsave.com/wallpapers/1920x1080/forces-of-nature/1526282/forces-of-nature-1526282.jpg"};
-    String baslik="Bslik bla bla bla bla bla";
-    String icerik="Icerik bla bla bla bla bla";
+    ArrayList<String> images = new ArrayList<String>();
+    ArrayList<String> baslik = new ArrayList<String>() ;
+    ArrayList<String> icerik = new ArrayList<String>() ;
     ArrayList<ListViews> lists = new ArrayList<ListViews>();
+    ArrayList<ArrayList> list1 = new ArrayList<ArrayList>();
+    ArrayList<String> temp = new ArrayList<String>();
 
-    DynamicListView(Context c )
+
+    DynamicListView(Context c ,ArrayList<ArrayList> list ,String tur)
     {
+        this.list1 = list;
+        if(tur.equals("Haberler"))
+        {
+            Log.i("For disi loglar",String.valueOf(list1.size()));
+            for(int i = 0; i < list1.size() ; i++)
+            {
+                temp = list1.get(i);
+                Log.i("For ici",list1.get(i).get(3).toString());
+              images.add( temp.get(3) );
+                Log.i("For ici",list1.get(i).get(0).toString());
+              baslik.add( temp.get(0) );
+                Log.i("For ici",list1.get(i).get(1).toString());
+              icerik.add(temp.get(1));
+
+            }
+            temp.clear();
+        }
+        else if(tur.equals("Duyurular"))
+        {
+
+        }
+
+
         this.c = c;
       imageLoader = ImageLoader.getInstance();
 
-        for(int i= 0 ; i < 3 ; i++)
+        for(int i= 0 ; i < images.size() ; i++)
         {
-            lists.add( new ListViews(images[i],baslik,icerik));
+            lists.add( new ListViews( images.get(i), baslik.get(i), icerik.get(i) ) );
         }
     }
 

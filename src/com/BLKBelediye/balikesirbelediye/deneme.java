@@ -26,7 +26,7 @@ public class deneme extends Activity {
 
         temp = "";
         try {
-            result = MethodInfoGetter.methodRequest("BaskanYardimcilariGetir", "", "");
+            result = MethodInfoGetter.methodRequest("HaberGetir", "", "");
             Log.i("MainMenu", "Result gelis vakti");
         } catch (IOException e) {
             // TODO Auto-generated catch block

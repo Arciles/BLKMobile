@@ -2,9 +2,7 @@
 <project version="4">
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState>
-        <option name="visible" value="false" />
-      </GlobalState>
+      <GlobalState />
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -12,12 +10,6 @@
       <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/res/layout-port/dynamic_list_view.xml">
-        <config>
-          <device>Nexus 4</device>
-          <theme>@android:style/Theme.NoTitleBar</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout-port/info_display_tablet.xml">
         <config>
           <device>Nexus 7 2013</device>
@@ -44,13 +36,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/res/layout-port/multible_image_row_tablet.xml">
-        <config>
-          <device>Nexus 10</device>
-          <state>Portrait</state>
-          <theme>@android:style/Theme.NoTitleBar</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/res/layout-port/single_image_row_tablet.xml">
         <config>
           <device>Nexus 10</device>
           <state>Portrait</state>
@@ -145,11 +130,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainMenu.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="721" selection-end="721" vertical-scroll-proportion="-0.7225" vertical-offset="459" max-vertical-offset="2771">
+            <state line="62" column="36" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="2771">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DenemeDynamicListView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1003">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#DenemeDynamicListView#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kurumsal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/infoDisplay/Kurumsal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicListView.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/infoDisplay/DynamicListView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="2397">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#595#603#0" expanded="true" />
+                <element signature="e#651#659#0" expanded="true" />
+                <element signature="e#708#716#0" expanded="true" />
+                <element signature="e#767#778#0" expanded="true" />
+                <element signature="e#828#839#0" expanded="true" />
+                <element signature="e#885#893#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,22 +187,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout-port/deneme.xml" />
-        <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/Splash.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/main_menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/main_menu_tablet.xml" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/AbsListViewBaseActivity.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/ListAdapter.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/EBelediye.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java" />
         <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/dynamic_list_view.xml" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/DynamicListView.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/dynamic_lists.xml" />
-        <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/RequestSoap.java" />
         <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/deneme.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/footerview.xml" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/EndlessListView.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/AutoLoad.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/ERehber.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/Kurumsal.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/ProjeVeHizmetler.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/BalikesirMenu.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/EBelediye.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/kurumsal_menu.xml" />
+        <option value="$PROJECT_DIR$/res/layout-port/dynamic_lists.xml" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/DynamicListView.java" />
+        <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/RequestSoap.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/EndlessScrollListener.java" />
       </list>
     </option>
   </component>
@@ -237,8 +260,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,38 +348,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BalikesirBelediye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BalikesirBelediye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BalikesirBelediye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BalikesirBelediye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -378,7 +369,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deneme/project.properties" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cwac-endless-master/endless" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.STATE" value="left" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.STATE" value="right" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -539,6 +532,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -568,11 +566,10 @@
     <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1352" height="642" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3294271" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="284" y="97" width="123" height="1552" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29492188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24088542" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -588,6 +585,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18098958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1352" height="642" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -614,23 +612,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ERehber.java">
+    <entry file="file://$USER_HOME$/Desktop/cwac-endless-master/demo/.classpath">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.2975" vertical-offset="0" max-vertical-offset="527">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DisplayInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="46" selection-start="687" selection-end="687" vertical-scroll-proportion="0.595" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/main_menu_tablet.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout-port/footerview.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4743">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
@@ -640,41 +631,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/infoDisplay/EBelediye.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="262" selection-end="262" vertical-scroll-proportion="0.22401172" vertical-offset="0" max-vertical-offset="683">
+        <state line="18" column="48" selection-start="474" selection-end="474" vertical-scroll-proportion="0.595" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/BalikesirMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="80" selection-start="449" selection-end="449" vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="1819">
+        <state line="26" column="48" selection-start="740" selection-end="740" vertical-scroll-proportion="0.375" vertical-offset="105" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/multible_image_row.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ProjeVeHizmetler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="482" selection-end="482" vertical-scroll-proportion="0.445" vertical-offset="77" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ERehber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="473" selection-end="473" vertical-scroll-proportion="0.445" vertical-offset="77" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/deneme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="44" selection-start="987" selection-end="987" vertical-scroll-proportion="0.935" vertical-offset="51" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Andorid SDK/adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5132" column="0" selection-start="216927" selection-end="216927" vertical-scroll-proportion="0.3325" vertical-offset="85156" max-vertical-offset="90814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="36" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2771">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-port/kurumsal_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/dynamic_lists.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="446" selection-end="446" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="748">
+        <state line="7" column="4" selection-start="268" selection-end="268" vertical-scroll-proportion="0.18085106" vertical-offset="0" max-vertical-offset="658">
           <folding />
         </state>
       </provider>
@@ -682,35 +688,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="309" selection-end="309" vertical-scroll-proportion="0.595" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="61" selection-start="3809" selection-end="3827" vertical-scroll-proportion="0.4675" vertical-offset="1564" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DynamicListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.8725" vertical-offset="212" max-vertical-offset="1989">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1039#1050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/deneme.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout-port/dynamic_lists.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
@@ -718,31 +698,42 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MethodInfoGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="348" selection-end="348" vertical-scroll-proportion="-27.684755" vertical-offset="10782" max-vertical-offset="11883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/RequestSoap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="56" selection-start="4177" selection-end="4177" vertical-scroll-proportion="1.5710595" vertical-offset="1024" max-vertical-offset="2227">
+        <state line="101" column="20" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/deneme.java">
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/Kurumsal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="52" selection-start="841" selection-end="841" vertical-scroll-proportion="0.32" vertical-offset="229" max-vertical-offset="935">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="721" selection-end="721" vertical-scroll-proportion="-0.7225" vertical-offset="459" max-vertical-offset="2771">
-          <folding />
+        <state line="18" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1003">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#DenemeDynamicListView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DynamicListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="2397">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#603#0" expanded="true" />
+            <element signature="e#651#659#0" expanded="true" />
+            <element signature="e#708#716#0" expanded="true" />
+            <element signature="e#767#778#0" expanded="true" />
+            <element signature="e#828#839#0" expanded="true" />
+            <element signature="e#885#893#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

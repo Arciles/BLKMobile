@@ -169,7 +169,7 @@
                 android:layout_weight="1" >
 
                 <ImageButton
-                    android:id="@+id/ibEBelediye"
+                    android:id="@+id/ibBelediye"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/btn5"
@@ -207,7 +207,7 @@
                 android:layout_weight="1" >
 
                 <ImageButton
-                    android:id="@+id/ibERehber"
+                    android:id="@+id/ibRehber"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/btn7"
@@ -239,7 +239,7 @@
                 android:layout_weight="1" >
 
                 <ImageButton
-                    android:id="@+id/ibFotoğraflar"
+                    android:id="@+id/ibFotograflar"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/btn9"

@@ -17,7 +17,7 @@ public class Kurumsal extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kurumsal_menu);
 
-        lv = (ListView) findViewById(R.id.listView1);
+        lv = (ListView) findViewById(R.id.list);
         lv.setAdapter(new ListAdapter(this ,"Kurumsal"));
 
     }

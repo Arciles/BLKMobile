@@ -24,7 +24,7 @@ public class BalikesirMenu extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.kurumsal_menu);
 
-        list = (ListView) findViewById(R.id.listView1);
+        list = (ListView) findViewById(R.id.list);
         list.setAdapter(new ListAdapter(this , "Belikesir"));
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
