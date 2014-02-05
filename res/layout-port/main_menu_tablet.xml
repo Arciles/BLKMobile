@@ -49,8 +49,8 @@
 
             <ImageButton
                 android:id="@+id/imageButton1"
-                android:layout_width="81dp"
-                android:layout_height="104dp"
+                android:layout_width="fill_parent"
+                android:layout_height="84dp"
                 android:layout_weight="3.57"
                 android:background="@drawable/btn11" />
         </LinearLayout>
@@ -134,7 +134,7 @@
                 android:layout_weight="1">
 			
 			<ImageButton
-                android:id="@+id/ibHaberlerTablet"
+                android:id="@+id/ibHTablet"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btn2" />

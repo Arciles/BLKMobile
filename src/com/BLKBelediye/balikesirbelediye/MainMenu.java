@@ -16,6 +16,8 @@ import android.widget.TextView;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
+import infoDisplay.HaberlerDynamic;
+
 public class MainMenu extends Activity implements View.OnClickListener{
 
 	private static ArrayList<ArrayList> result = new ArrayList<ArrayList>();
@@ -36,7 +38,7 @@ public class MainMenu extends Activity implements View.OnClickListener{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main_menu);
+		setContentView(R.layout.main_menu_tablet);
 
         initialize();//ImageButton lari bu method icinde initialize ettim
 
@@ -69,22 +71,7 @@ public class MainMenu extends Activity implements View.OnClickListener{
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				if(result.isEmpty())
-				{
-					tx.setText("Result is emty");
-				}
-				else
-				{
-					for(int i = 0 ; i < result.size() ; i++)
-					{
-						for(int j = 0 ; j < result.get(i).size() ; j++ )
-						{
-						temp += result.get(i).get(j) + " \n";
-					
-						}	
-					}
-				}
-				tx.setText(temp);*/
+        */
 	}
 
 	@Override
@@ -99,71 +86,73 @@ public class MainMenu extends Activity implements View.OnClickListener{
 
     private void initialize()
     {
-        baskan = (ImageButton) findViewById(R.id.ibBaskan);
-        kurumsal =(ImageButton) findViewById(R.id.ibKurumsal);
-        haberler = (ImageButton) findViewById(R.id.ibHaberler);
-        duyurular = (ImageButton) findViewById(R.id.ibDuyurular);
-        balikesir = (ImageButton) findViewById(R.id.ibBalikesir);
-        e_belediye = (ImageButton) findViewById(R.id.ibBelediye);
-        etkinlikler = (ImageButton) findViewById(R.id.ibEtkinlikler);
-        e_rehber = (ImageButton) findViewById(R.id.ibRehber);
-        hizmetler = (ImageButton) findViewById(R.id.ibHizmetler);
-        fotograflar = (ImageButton) findViewById(R.id.ibFotograflar);
+        baskan = (ImageButton) findViewById(R.id.ibBaskanTablet);
+        kurumsal =(ImageButton) findViewById(R.id.ibKurumsalTablet);
+        haberler = (ImageButton) findViewById(R.id.ibHTablet);
+        duyurular = (ImageButton) findViewById(R.id.ibDuyurularTablet);
+        balikesir = (ImageButton) findViewById(R.id.ibBalikesirTablet);
+        e_belediye = (ImageButton) findViewById(R.id.ibBelediyeTablet);
+        etkinlikler = (ImageButton) findViewById(R.id.ibEtkinliklerTablet);
+        e_rehber = (ImageButton) findViewById(R.id.ibRehberTablet);
+        hizmetler = (ImageButton) findViewById(R.id.ibHizmetlerTablet);
+        fotograflar = (ImageButton) findViewById(R.id.ibFotograflarTablet);
     }
 
-
+/*
+* Bu kısım buttonların onClick methodlarını tanımlamak için kullanıldı
+* */
     @Override
     public void onClick(View v) {
         switch (v.getId())
         {
-            case R.id.ibKurumsal:
+            case R.id.ibKurumsalTablet:
 
                 Intent kurumIntent = new Intent("android.intent.action.KURUMSAL");
                 startActivity(kurumIntent);
                 break;
-            case R.id.ibBalikesir :
+            case R.id.ibBalikesirTablet :
 
                 Intent balikesirIntent = new Intent("android.intent.action.BALIKESIRMENU");
                 startActivity(balikesirIntent);
 
                 break;
-            case R.id.ibBaskan :
+            case R.id.ibBaskanTablet :
 
-                Intent baskan = new Intent("android.intent.action.DENEME");
+                Intent baskan = new Intent("android.intent.action.BASKAN");
+
                 startActivity(baskan);
 
                 break;
-            case R.id.ibDuyurular :
+            case R.id.ibDuyurularTablet :
 
                 break;
-            case R.id.ibBelediye:
+            case R.id.ibBelediyeTablet :
 
                 Intent eBelediyeIntent = new Intent("android.intent.action.EBELEDIYE");
                 startActivity(eBelediyeIntent);
 
                 break;
-            case R.id.ibRehber :
+            case R.id.ibRehberTablet :
 
                 Intent eRehber = new Intent("android.intent.action.EREHBER");
                 startActivity(eRehber);
 
                 break;
-            case R.id.ibEtkinlikler:
+            case R.id.ibEtkinliklerTablet :
 
                 break;
-            case R.id.ibHaberler :
+            case R.id.ibHTablet :
 
-                Intent haberler = new Intent("android.intent.action.DYNAMIC");
-                startActivity(haberler);
+                HaberlerDynamic a = new HaberlerDynamic();
 
                 break;
-            case R.id.ibHizmetler:
+            case R.id.ibHizmetlerTablet :
 
                 Intent proje = new Intent("android.intent.action.HIZMETLER");
                 startActivity(proje);
 
                 break;
-            case R.id.ibFotograflar:
+            case R.id.ibFotograflarTablet :
 
                 break;
         }

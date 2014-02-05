@@ -34,19 +34,24 @@ public class DynamicListView extends BaseAdapter {
 
     DynamicListView(Context c ,ArrayList<ArrayList> list ,String tur)
     {
+        this.c = c;
         this.list1 = list;
+        addMoreItems(tur,15);
+
+    }
+
+    public void addMoreItems( String tur,int count) {
+
+
         if(tur.equals("Haberler"))
         {
-            Log.i("For disi loglar",String.valueOf(list1.size()));
-            for(int i = 0; i < list1.size() ; i++)
+           for(int i = 0; i < count ; i++)
             {
                 temp = list1.get(i);
-                Log.i("For ici",list1.get(i).get(3).toString());
-              images.add( temp.get(3) );
-                Log.i("For ici",list1.get(i).get(0).toString());
-              baslik.add( temp.get(0) );
-                Log.i("For ici",list1.get(i).get(1).toString());
-              icerik.add(temp.get(1));
+
+                images.add( temp.get(3) );
+                baslik.add( temp.get(0) );
+                icerik.add(temp.get(1));
 
             }
             temp.clear();
@@ -57,14 +62,19 @@ public class DynamicListView extends BaseAdapter {
         }
 
 
-        this.c = c;
-      imageLoader = ImageLoader.getInstance();
 
-        for(int i= 0 ; i < images.size() ; i++)
+        imageLoader = ImageLoader.getInstance();
+
+        for(int i= 0 ; i < count ; i++)
         {
             lists.add( new ListViews( images.get(i), baslik.get(i), icerik.get(i) ) );
         }
+
+        notifyDataSetChanged();
     }
+
+
+
 
     @Override
     public int getCount() {
@@ -97,7 +107,7 @@ public class DynamicListView extends BaseAdapter {
             holder = (myViewHolder) row.getTag();
         }
 
-        imageLoader.displayImage(lists.get(position).image,holder.image );
+        imageLoader.displayImage(lists.get(position).image , holder.image );
         holder.baslik.setText(lists.get(position).baslik);
         holder.icerik.setText(lists.get(position).icerik);
 

@@ -133,45 +133,47 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="36" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="2771">
+            <state line="121" column="0" selection-start="3908" selection-end="3908" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DenemeDynamicListView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java">
+      <file leaf-file-name="InsaatRuhsati.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/InsaatRuhsati.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1003">
+            <state line="39" column="55" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.60175693" vertical-offset="252" max-vertical-offset="935">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#DenemeDynamicListView#0" expanded="false" />
+                <element signature="e#524#535#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kurumsal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infoDisplay/Kurumsal.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicListView.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/infoDisplay/DynamicListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="2397">
+            <state line="122" column="65" selection-start="4677" selection-end="4682" vertical-scroll-proportion="0.0" vertical-offset="1867" max-vertical-offset="3026">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#595#603#0" expanded="true" />
-                <element signature="e#651#659#0" expanded="true" />
-                <element signature="e#708#716#0" expanded="true" />
-                <element signature="e#767#778#0" expanded="true" />
-                <element signature="e#828#839#0" expanded="true" />
-                <element signature="e#885#893#0" expanded="true" />
+                <element signature="e#569#587#0" expanded="true" />
+                <element signature="e#743#761#0" expanded="true" />
+                <element signature="e#1083#1101#0" expanded="true" />
+                <element signature="e#1424#1442#0" expanded="true" />
+                <element signature="e#1769#1787#0" expanded="true" />
+                <element signature="e#2115#2133#0" expanded="true" />
+                <element signature="e#2455#2473#0" expanded="true" />
+                <element signature="e#2802#2820#0" expanded="true" />
+                <element signature="e#3163#3181#0" expanded="true" />
+                <element signature="e#3507#3525#0" expanded="true" />
+                <element signature="e#3865#3883#0" expanded="true" />
+                <element signature="e#4218#4236#0" expanded="true" />
+                <element signature="e#4568#4586#0" expanded="true" />
+                <element signature="e#4925#4943#0" expanded="true" />
+                <element signature="e#5281#5299#0" expanded="true" />
+                <element signature="e#5631#5649#0" expanded="true" />
+                <element signature="e#5979#5997#0" expanded="true" />
+                <element signature="e#6333#6351#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,21 +190,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/deneme.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/footerview.xml" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/EndlessListView.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/AutoLoad.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/ERehber.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/Kurumsal.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/ProjeVeHizmetler.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/main_menu.xml" />
         <option value="$PROJECT_DIR$/src/infoDisplay/BalikesirMenu.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/EBelediye.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/kurumsal_menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/dynamic_lists.xml" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/DynamicListView.java" />
-        <option value="$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/RequestSoap.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java" />
-        <option value="$PROJECT_DIR$/src/infoDisplay/EndlessScrollListener.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/info_display_tablet.xml" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/balikesirMenu/Muhtarlik.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/BaskanOzgecmis.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/CevreHizmetleri.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/balikesirMenu/BalikesirTarih.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/EmlakVergisi.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/EvlendirmeIslemleri.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/IsyeriAcma.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/SuveKanalizasyon.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/IskanRaporu.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/ERehber.java" />
+        <option value="$PROJECT_DIR$/src/infoDisplay/E_Rehber/InsaatRuhsati.java" />
       </list>
     </option>
   </component>
@@ -260,8 +262,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,8 +348,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BalikesirBelediye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BalikesirBelediye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BalikesirBelediye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BalikesirBelediye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="balikesirbelediye" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,9 +539,9 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="nexsus_4" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -568,9 +602,9 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.3294271" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="284" y="97" width="123" height="1552" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24088542" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24088542" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915374" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -578,11 +612,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39915374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18098958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1352" height="642" />
@@ -612,75 +646,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/cwac-endless-master/demo/.classpath">
+    <entry file="file://$PROJECT_DIR$/res/layout-port/info_display_tablet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/footerview.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/EBelediye.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="474" selection-end="474" vertical-scroll-proportion="0.595" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/BalikesirMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="740" selection-end="740" vertical-scroll-proportion="0.375" vertical-offset="105" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ProjeVeHizmetler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="482" selection-end="482" vertical-scroll-proportion="0.445" vertical-offset="77" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ERehber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="473" selection-end="473" vertical-scroll-proportion="0.445" vertical-offset="77" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/deneme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="44" selection-start="987" selection-end="987" vertical-scroll-proportion="0.935" vertical-offset="51" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Andorid SDK/adt-bundle-windows-x86_64-20131030/sdk/sources/android-19/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5132" column="0" selection-start="216927" selection-end="216927" vertical-scroll-proportion="0.3325" vertical-offset="85156" max-vertical-offset="90814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="36" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="2771">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/kurumsal_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="268" selection-end="268" vertical-scroll-proportion="0.18085106" vertical-offset="0" max-vertical-offset="658">
+        <state line="34" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.45333335" vertical-offset="408" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
@@ -688,51 +656,154 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/dynamic_lists.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/RequestSoap.java">
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/balikesirMenu/Muhtarlik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="20" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/Kurumsal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DenemeDynamicListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1003">
+        <state line="38" column="73" selection-start="1149" selection-end="1169" vertical-scroll-proportion="0.5325" vertical-offset="433" max-vertical-offset="1445">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#DenemeDynamicListView#0" expanded="false" />
+            <element signature="e#729#740#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infoDisplay/DynamicListView.java">
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/BalikesirMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.68" vertical-offset="0" max-vertical-offset="2397">
+        <state line="78" column="11" selection-start="844" selection-end="1954" vertical-scroll-proportion="0.60175693" vertical-offset="626" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/BaskanOzgecmis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="27" selection-start="2450" selection-end="2450" vertical-scroll-proportion="0.0" vertical-offset="1136" max-vertical-offset="1581">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#595#603#0" expanded="true" />
-            <element signature="e#651#659#0" expanded="true" />
-            <element signature="e#708#716#0" expanded="true" />
-            <element signature="e#767#778#0" expanded="true" />
-            <element signature="e#828#839#0" expanded="true" />
-            <element signature="e#885#893#0" expanded="true" />
+            <element signature="e#765#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/balikesirMenu/BalikesirTarih.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.88433385" vertical-offset="824" max-vertical-offset="1530">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#690#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/SuveKanalizasyon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="49" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.69692534" vertical-offset="187" max-vertical-offset="935">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/IsyeriAcma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="77" selection-start="917" selection-end="917" vertical-scroll-proportion="0.47291362" vertical-offset="187" max-vertical-offset="935">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/IskanRaporu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="78" selection-start="918" selection-end="918" vertical-scroll-proportion="0.47291362" vertical-offset="187" max-vertical-offset="935">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/EvlendirmeIslemleri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="59" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="918">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/EmlakVergisi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="17" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="969">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/CevreHizmetleri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.4275256" vertical-offset="269" max-vertical-offset="952">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="65" selection-start="4677" selection-end="4682" vertical-scroll-proportion="0.0" vertical-offset="1867" max-vertical-offset="3026">
+          <folding>
+            <element signature="e#569#587#0" expanded="true" />
+            <element signature="e#743#761#0" expanded="true" />
+            <element signature="e#1083#1101#0" expanded="true" />
+            <element signature="e#1424#1442#0" expanded="true" />
+            <element signature="e#1769#1787#0" expanded="true" />
+            <element signature="e#2115#2133#0" expanded="true" />
+            <element signature="e#2455#2473#0" expanded="true" />
+            <element signature="e#2802#2820#0" expanded="true" />
+            <element signature="e#3163#3181#0" expanded="true" />
+            <element signature="e#3507#3525#0" expanded="true" />
+            <element signature="e#3865#3883#0" expanded="true" />
+            <element signature="e#4218#4236#0" expanded="true" />
+            <element signature="e#4568#4586#0" expanded="true" />
+            <element signature="e#4925#4943#0" expanded="true" />
+            <element signature="e#5281#5299#0" expanded="true" />
+            <element signature="e#5631#5649#0" expanded="true" />
+            <element signature="e#5979#5997#0" expanded="true" />
+            <element signature="e#6333#6351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/insaat_ruhsati.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/ERehber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="567" selection-end="567" vertical-scroll-proportion="-0.07467057" vertical-offset="306" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/BLKBelediye/balikesirbelediye/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="0" selection-start="3908" selection-end="3908" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/infoDisplay/E_Rehber/InsaatRuhsati.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="55" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.60175693" vertical-offset="252" max-vertical-offset="935">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#535#0" expanded="true" />
           </folding>
         </state>
       </provider>

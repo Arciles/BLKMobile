@@ -1,17 +1,16 @@
 package infoDisplay;
 
-import android.Manifest;
+
 import android.content.Context;
 import android.content.res.Resources;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.BLKBelediye.balikesirbelediye.R;
-
 import java.util.ArrayList;
 
 
@@ -113,7 +112,7 @@ public  class ListAdapter extends BaseAdapter {
         if(row==null)
         {
             LayoutInflater inflate = (LayoutInflater) c.getSystemService(c.LAYOUT_INFLATER_SERVICE);//Butun layout u inflate'in icine aldik
-            row = inflate.inflate(R.layout.multible_image_row,parent,false); //gerekli islemler
+            row = inflate.inflate(R.layout.multible_image_row_tablet,parent,false); //gerekli islemler
             holder = new myViewHolder(row);
             row.setTag(holder);
         }
@@ -122,6 +121,8 @@ public  class ListAdapter extends BaseAdapter {
             holder = (myViewHolder) row.getTag();
         }
 
+        Log.i("Holder exception log",holder.toString());
+        Log.i("Null Pointer Break Point",listMembers.get(position).title );
         holder.text.setText(listMembers.get(position).title); //gelen position a gore resim ve text leri set ettik
         holder.image.setImageResource(listMembers.get(position).image);
 
@@ -137,8 +138,8 @@ public  class ListAdapter extends BaseAdapter {
         TextView text;
         myViewHolder(View v)
         {
-            this.image = (ImageView) v.findViewById(R.id.ivMultiple);
-            this.text = (TextView) v.findViewById(R.id.tvMultiole);
+            this.image = (ImageView) v.findViewById(R.id.imageView1);
+            this.text = (TextView) v.findViewById(R.id.textView);
         }
     }
 

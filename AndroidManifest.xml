@@ -88,14 +88,85 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name="infoDisplay.DenemeDynamicListView"
+            android:name="infoDisplay.BaskanOzgecmis"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.DYNAMIC" />
+                <action android:name="android.intent.action.BASKAN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
+        <activity
+            android:name="infoDisplay.balikesirMenu.BalikesirTarih"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TARIH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.E_Rehber.CevreHizmetleri"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CEVRE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.E_Rehber.EmlakVergisi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EMLAK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.E_Rehber.EvlendirmeIslemleri"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EVLENDIRME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.E_Rehber.InsaatRuhsati"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INSAAT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.E_Rehber.IskanRaporu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ISKAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="infoDisplay.E_Rehber.IsyeriAcma"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ISYERI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="infoDisplay.E_Rehber.SuveKanalizasyon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SUVEKANAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
