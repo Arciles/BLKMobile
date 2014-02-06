@@ -40,6 +40,7 @@ public class CevreHizmetleri extends Activity {
         tx.setText("");
         iv.setImageResource(R.drawable.cevre_temizlik);
         tx.setText(result.get(0).get(1).toString());
+        tx.append("\n\n");
     }
 
     @Override

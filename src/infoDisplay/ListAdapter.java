@@ -121,8 +121,6 @@ public  class ListAdapter extends BaseAdapter {
             holder = (myViewHolder) row.getTag();
         }
 
-        Log.i("Holder exception log",holder.toString());
-        Log.i("Null Pointer Break Point",listMembers.get(position).title );
         holder.text.setText(listMembers.get(position).title); //gelen position a gore resim ve text leri set ettik
         holder.image.setImageResource(listMembers.get(position).image);
 

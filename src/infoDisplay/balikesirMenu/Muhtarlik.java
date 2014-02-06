@@ -7,6 +7,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.BLKBelediye.balikesirbelediye.MethodInfoGetter;
@@ -20,24 +21,25 @@ import java.net.URL;
 import java.util.ArrayList;
 
 import com.BLKBelediye.balikesirbelediye.R;
+
+import infoDisplay.BalikesirTwoDynamic;
+
 /**
  * Created by EsatTaha on 05.02.2014.
  */
 public class Muhtarlik extends Activity {
-    ArrayList<ArrayList> result = new ArrayList<ArrayList>();
-    ImageView iv;
-    TextView tx;
-    Bitmap bmp = null;
 
+    ListView list;
+    ArrayList<ArrayList> result = new ArrayList<ArrayList>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.info_display_tablet);
-        iv = (ImageView) findViewById(R.id.imageView1);
-        tx = (TextView) findViewById(R.id.textView1);
+        setContentView(R.layout.kurumsal_menu);
+        list = (ListView) findViewById(R.id.list);
+
         try {
-            result = MethodInfoGetter.methodRequest("BalikesirTarihiGetir", "", "");
-            Log.i("Balikesir tarihi log denemesi",result.toString());
+            result = MethodInfoGetter.methodRequest("EczanelerGetir", "", "");
+            Log.i("MainMenu","Result gelis vakti");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -45,35 +47,13 @@ public class Muhtarlik extends Activity {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        new asTask().execute();
-    }
 
-    private class asTask extends AsyncTask<Void , Void ,Void> {
-        @Override
-        protected Void doInBackground(Void... params) {
 
-            URL url = null;
-            try {
-                url = new URL("http://balikesir.bel.tr/Balikesir_Tarihi/Resim_b_1.jpg");
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            }
+        BalikesirTwoDynamic muhtarlik = new BalikesirTwoDynamic(Muhtarlik.this ,result,"Eczaneler");
+        list.setAdapter(muhtarlik);
 
-            try {
-                bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
 
-        @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            iv.setImageBitmap(bmp);
-            tx.clearComposingText();
-            tx.setText(result.get(0).get(1).toString());
-        }
+
     }
 
 }

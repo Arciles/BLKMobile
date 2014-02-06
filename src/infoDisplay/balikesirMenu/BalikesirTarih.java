@@ -73,6 +73,7 @@ public class BalikesirTarih extends Activity
             iv.setImageBitmap(bmp);
             tx.setText("");
             tx.setText(result.get(0).get(1).toString());
+            tx.append("\n\n");
         }
     }
 

@@ -39,6 +39,7 @@ public class IskanRaporu extends Activity
         tx.setText("");
         iv.setImageResource(R.drawable.iskan_raporu);
         tx.setText(result.get(0).get(1).toString());
+        tx.append("\n\n");
     }
 
     @Override

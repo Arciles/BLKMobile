@@ -42,7 +42,8 @@ public class BalikesirMenu extends Activity {
                         startActivity(temp);
                         break;
                     case 1:
-
+                        temp = new Intent("android.intent.action.MUHTARLIK");
+                        startActivity(temp);
 
                         break;
                     case 2:
@@ -79,10 +80,5 @@ public class BalikesirMenu extends Activity {
         });
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
 }
 

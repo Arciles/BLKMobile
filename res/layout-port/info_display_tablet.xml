@@ -37,48 +37,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="dkjslakjdkljsakldjlas
-                djsa
-                jdkşsajşdkjs
-                aşkjd
-                sja
-                djasş
-                jkd
-                jksa
-                jkd
-                skaj
-                kdjsakjdkşjsak
-                şkjd
-                saj
-                djsaş
-                jd
-                şjasş
-                dj
-                sşajd
-                jsaş
-                djşsaj
-                djas
-                jd
-                asjk
-                dj
-                askjdsa
-                fds
-                
-                fds
-                
-                fds
-                
-                fd
-                s
-                fd
-                s
-                f
-                ds
-                f
-                ds
-                f
-                sd
-                "
+                android:text=""
                 android:textColor="#000000"
                 android:textSize="25sp" />
 

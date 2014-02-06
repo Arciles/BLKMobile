@@ -41,6 +41,7 @@ public class EmlakVergisi extends Activity {
         tx.setText("");
         iv.setImageResource(R.drawable.emlak_vergisi);
         tx.setText(result.get(0).get(1).toString());
+        tx.append("\n\n");
     }
 
     @Override

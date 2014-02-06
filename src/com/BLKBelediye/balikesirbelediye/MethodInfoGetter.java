@@ -24,6 +24,7 @@ public class MethodInfoGetter {
 		name = PARAM_NAME;
 		value = PARAM_VALUE;
 		AsyncCallWS task = new AsyncCallWS();
+        retValue.clear();
 		
 		if(METHOD_NAME.equals("BalikesirTarihiGetir"))
 		{
@@ -645,8 +646,7 @@ public class MethodInfoGetter {
 			}
 			
 		}
-		Log.i("Fonksiyon oncesi retun","Data return edildi");
-		// Log.i("Son return oncesi etValue",String.valueOf(retValue.size()));
+        method="";
 		return retValue;
 	}
 	
@@ -659,11 +659,10 @@ public static class AsyncCallWS extends AsyncTask<String, Void, Void> {
 
 		protected Void doInBackground(String... params) {
 				
-			if(name.equals("") && value.equals(""))
+			if(!(name.equals("") && value.equals("")))
 			{
 				try {
 					retValue = 	RequestSoap.soap(method, name ,value ,tags);
-					Log.i("DoinbackGround"," retValue geldi");
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -672,24 +671,21 @@ public static class AsyncCallWS extends AsyncTask<String, Void, Void> {
 					e.printStackTrace();
 				}
 			}
+
 			else
 			{
         	try{
         		retValue =	RequestSoap.soap(method, "" ,"" ,tags);
-        		Log.i("Asyc icinde kontrol" , " Method calisti");
         	}
         	catch(IOException e)
         	{e.printStackTrace();}
         	catch(XmlPullParserException e)
         	{e.printStackTrace();}
-        	// Log.i(TAG, resultData);
 			}
           return null;
         }
         protected void onPostExecute(Void result) {
-           
-        	
-        	 
+
         }    
         protected void onPreExecute() {
 

@@ -38,6 +38,7 @@ public class EvlendirmeIslemleri extends Activity {
         tx.setText("");
         iv.setImageResource(R.drawable.evlendirme_islemleri);
         tx.setText(result.get(0).get(1).toString());
+        tx.append("\n\n");
     }
 
     @Override
